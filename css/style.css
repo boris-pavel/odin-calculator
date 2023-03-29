@@ -101,14 +101,14 @@ body {
     align-items: center;
 }
 
-.operator {
+.operator,
+.decimal {
     background-color: #CCCCCC;
 }
 
-.operator:hover{
-    background-color: white;
-}
-
-.number:hover {
+.operator:hover,
+.number:hover,
+.decimal:hover,
+.equals:hover {
     background-color: white;
 }
