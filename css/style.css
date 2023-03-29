@@ -23,10 +23,16 @@ body {
 }
 
 .display {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
     background-color: #ACAD94;
-    height: 20%;
+    height: 10%;
     border: 2px solid black;
     border-radius: 10px;
+    flex-wrap: wrap;
+    font-size: xx-large;
 }
 
 .display,
@@ -61,11 +67,18 @@ body {
    align-items: center;
 }
 
+#clear:hover {
+    background-color: #D86E70;
+}
 #delete {
     background-color: #EE6352;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#delete:hover{
+    background-color: #F6ACA2;
 }
 
 .signs {
@@ -90,4 +103,12 @@ body {
 
 .operator {
     background-color: #CCCCCC;
+}
+
+.operator:hover{
+    background-color: white;
+}
+
+.number:hover {
+    background-color: white;
 }
